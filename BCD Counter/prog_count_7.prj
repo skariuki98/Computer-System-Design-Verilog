@@ -1,0 +1,2 @@
+verilog work "../../counter1.v"
+verilog work "../../prog_counter1.v"

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab3/Lab3testing/prog_count_7.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab3/Lab3testing/prog_count_7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/PIN_MAP.ucf" -p xc6slx45-csg484-3 "prog_count_7.ngc" prog_count_7.ngd  
