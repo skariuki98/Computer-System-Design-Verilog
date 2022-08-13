@@ -16,14 +16,14 @@ Projects covered:
 
 * *Design* tab shows the file hierarchy (most important for proper flow of the project). Within this tab you can choose simulation mode to simulate your project results using a testbench or the Implementation mode to implement the results on the board.
 * *Processes* tab shows the running processes for both simulation and implementation
-* You can also see a list of all your files and libraries in the *files* and *libraries* tab respectfully
+* You can also see a list of all your files and libraries in the *files* and *libraries* tab respectively
 
 For more information on the Xilinx ISE Design Suite software, please visit https://www.xilinx.com
 
  
 ## 1. BCD Counter
 ### Objective
-This Project implements a BCD up-counter that counts until a certain maximum value.
+Implement a BCD up-counter that counts until a certain maximum value.
 
 ## Implementation
 Inputs: max_count[6:0], run, CLK
