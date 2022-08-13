@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab4\L4_boardtest.ncd
+OUTFILE=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab4\L4_boardtest.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg484
+WORKINGDIR=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab4
+LICENSE=WebPack
+USER_INFO=212392216_0_0_811

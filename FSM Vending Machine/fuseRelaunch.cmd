@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/FSMoore_tb_isim_beh.exe" -prj "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/FSMoore_tb_beh.prj" "work.FSMoore_tb" "work.glbl" 

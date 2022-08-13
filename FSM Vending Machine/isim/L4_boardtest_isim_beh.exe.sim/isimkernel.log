@@ -1,0 +1,29 @@
+Command line:
+   L4_boardtest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60963
+
+Sun Feb 20 04:41:18 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.63 Meg
+
+ Total Signals          : 46
+ Total Nets             : 28
+ Total Signal Drivers   : 13
+ Total Blocks           : 7
+ Total Primitive Blocks : 6
+ Total Processes        : 23
+ Total Traceable Variables  : 59
+ Total Scalar Nets and Variables : 247
+Total Line Count : 221
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5150.63 Meg
+
+Sun Feb 20 04:41:30 2022
+

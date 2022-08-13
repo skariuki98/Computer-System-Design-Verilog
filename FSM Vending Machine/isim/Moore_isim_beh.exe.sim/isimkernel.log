@@ -1,0 +1,29 @@
+Command line:
+   Moore_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60948
+
+Sun Feb 20 04:34:34 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.04 Meg
+
+ Total Signals          : 20
+ Total Nets             : 24
+ Total Signal Drivers   : 9
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 38
+ Total Scalar Nets and Variables : 172
+Total Line Count : 183
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5150.04 Meg
+
+Sun Feb 20 04:34:39 2022
+

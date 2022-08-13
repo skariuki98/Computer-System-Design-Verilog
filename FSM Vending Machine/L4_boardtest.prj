@@ -1,0 +1,4 @@
+verilog work "Moore.v"
+verilog work "clock_divider.v"
+verilog work "../../Labs/Lab4 Material/Lab_4___Finite_State_Machine_on_FPGA_export/Sample divider and debouncer/debouncer.v"
+verilog work "L4_boardtest.v"

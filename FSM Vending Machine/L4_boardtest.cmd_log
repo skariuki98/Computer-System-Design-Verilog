@@ -1,0 +1,221 @@
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab4/L4_boardtest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc L4PIN_MAP.ucf -p xc6slx45-csg484-3 "L4_boardtest.ngc" L4_boardtest.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o L4_boardtest_map.ncd L4_boardtest.ngd L4_boardtest.pcf 
+par -w -intstyle ise -ol high -mt off L4_boardtest_map.ncd L4_boardtest.ncd L4_boardtest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L4_boardtest.twx L4_boardtest.ncd -o L4_boardtest.twr L4_boardtest.pcf -ucf L4PIN_MAP.ucf 
+bitgen -intstyle ise -f L4_boardtest.ut L4_boardtest.ncd 

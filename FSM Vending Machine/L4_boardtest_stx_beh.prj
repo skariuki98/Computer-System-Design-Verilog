@@ -1,0 +1,5 @@
+verilog isim_temp "Moore.v"
+verilog isim_temp "../../Labs/Lab4 Material/Lab_4___Finite_State_Machine_on_FPGA_export/Sample divider and debouncer/debouncer.v"
+verilog isim_temp "../../Labs/Lab4 Material/Lab_4___Finite_State_Machine_on_FPGA_export/Sample divider and debouncer/clock_divider.v"
+verilog isim_temp "L4_boardtest.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
