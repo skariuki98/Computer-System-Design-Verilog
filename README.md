@@ -7,6 +7,19 @@ Projects covered:
 * Finite State Machine - Vending Machine
 * Finite State Machine - GCD calculator with Datapath
 * UART (RS232) Serial Message Transmission with Picoblaze Assembly
+
+## How to Build Project
+1. Clone the repository to a local directory of your choice
+2. Open the Xilinx ISE Project file
+3. A window may pop up asking you to select the location of specific files. All you need to do is select the file in the directory you just cloned to. If you do not get this window skip this step.
+4. On the left side of your screen you will see a toolbar with options.
+
+* *Design* tab shows the file hierarchy (most important for proper flow of the project). Within this tab you can choose simulation mode to simulate your project results using a testbench or the Implementation mode to implement the results on the board.
+* *Processes* tab shows the running processes for both simulation and implementation
+* You can also see a list of all your files and libraries in the *files* and *libraries* tab respectfully
+
+For more information on the Xilinx ISE Design Suite software, please visit https://www.xilinx.com
+
  
 ## 1. BCD Counter
 ### Objective
