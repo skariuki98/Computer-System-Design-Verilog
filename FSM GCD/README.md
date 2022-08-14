@@ -10,3 +10,11 @@ Design a GCD calculator for two 4-bit numbers. It will output the binary value o
 4.	Input RESET uses pushbutton BTN3
 5.	Output GCD OUT uses LD7-LD0
 6.	Output DONE uses LD9
+
+## Datapath
+![](/images/gcdatapath.jpg)
+
+## Results
+![](/images/gcd12-4.jpg)
+
+![](/images/gcd12-15.jpg)
