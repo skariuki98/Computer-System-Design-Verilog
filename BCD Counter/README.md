@@ -1,4 +1,4 @@
-# 1. BCD Counter
+# BCD Counter
 ## Objective
 Implement a BCD up-counter that counts until a certain maximum value.
 
