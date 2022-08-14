@@ -9,7 +9,7 @@ Projects covered:
     * Create a soda vending machine using a finite state machine model
 * Finite State Machine - GCD calculator with Datapath
     * Implement RTL Design (structural datapath and behavioral controller) of Greatest Common Denominator (GCD) of two numbers
-* UART (RS232) Serial Message Transmission with Picoblaze Assembly
+* Simple Loopback System - UART/RS232 & Picoblaze Assembly
 
 ## General Instructions: How to Build Projects
 1. Clone the repository to a local directory of your choice
