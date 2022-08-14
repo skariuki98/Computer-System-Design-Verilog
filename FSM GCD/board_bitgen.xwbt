@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\board.ncd
+OUTFILE=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\board.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg484
+WORKINGDIR=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD
+LICENSE=WebPack
+USER_INFO=212392216_0_0_811

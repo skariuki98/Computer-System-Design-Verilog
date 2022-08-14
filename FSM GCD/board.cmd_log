@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 "board.ngc" board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o board_map.ncd board.ngd board.pcf 
+par -w -intstyle ise -ol high -mt off board_map.ncd board.ncd board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml board.twx board.ncd -o board.twr board.pcf -ucf Anvyl_Master.ucf 
+bitgen -intstyle ise -f board.ut board.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 "board.ngc" board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o board_map.ncd board.ngd board.pcf 
+par -w -intstyle ise -ol high -mt off board_map.ncd board.ncd board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml board.twx board.ncd -o board.twr board.pcf -ucf Anvyl_Master.ucf 
+bitgen -intstyle ise -f board.ut board.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 "board.ngc" board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o board_map.ncd board.ngd board.pcf 
+par -w -intstyle ise -ol high -mt off board_map.ncd board.ncd board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml board.twx board.ncd -o board.twr board.pcf -ucf Anvyl_Master.ucf 
+bitgen -intstyle ise -f board.ut board.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 "board.ngc" board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o board_map.ncd board.ngd board.pcf 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 "board.ngc" board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o board_map.ncd board.ngd board.pcf 
+par -w -intstyle ise -ol high -mt off board_map.ncd board.ncd board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml board.twx board.ncd -o board.twr board.pcf -ucf Anvyl_Master.ucf 
+bitgen -intstyle ise -f board.ut board.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Labs/Lab5 Material/project_5/project5GCD/board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 "board.ngc" board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o board_map.ncd board.ngd board.pcf 
+par -w -intstyle ise -ol high -mt off board_map.ncd board.ncd board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml board.twx board.ncd -o board.twr board.pcf -ucf Anvyl_Master.ucf 
+bitgen -intstyle ise -f board.ut board.ncd 
+xst -intstyle ise -ifn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab5/project5GCD/board.xst" -ofn "C:/Users/kariu/Documents/Spring 2022/CDA4203L/Projects/Lab5/project5GCD/board.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Anvyl_Master.ucf -p xc6slx45-csg484-3 "board.ngc" board.ngd  
+map -intstyle ise -p xc6slx45-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o board_map.ncd board.ngd board.pcf 
+par -w -intstyle ise -ol high -mt off board_map.ncd board.ncd board.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml board.twx board.ncd -o board.twr board.pcf -ucf Anvyl_Master.ucf 
+bitgen -intstyle ise -f board.ut board.ncd 

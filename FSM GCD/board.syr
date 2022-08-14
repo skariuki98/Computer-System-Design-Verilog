@@ -1,0 +1,555 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: board.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "board.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "board"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg484
+
+---- Source Options
+Top Module Name                    : board
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\SUB.v" into library work
+Parsing module <SUB>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\MUX.v" into library work
+Parsing module <MUX>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\DFLIPFLOP.v" into library work
+Parsing module <DFLIPFLOP>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\COMPARE.v" into library work
+Parsing module <COMPARE>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\GCD4bit.v" into library work
+Parsing module <GCD_datapath>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\GCDwrapper.v" into library work
+Parsing module <GCDwrapper>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\debouncer.v" into library work
+Parsing module <debouncer>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\clock_divider.v" into library work
+Parsing module <clock_divider>.
+Analyzing Verilog file "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\board.v" into library work
+Parsing module <board>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <board>.
+
+Elaborating module <clock_divider>.
+
+Elaborating module <debouncer>.
+
+Elaborating module <GCDwrapper>.
+
+Elaborating module <GCD_datapath>.
+
+Elaborating module <DFLIPFLOP>.
+
+Elaborating module <MUX>.
+
+Elaborating module <SUB>.
+
+Elaborating module <COMPARE>.
+
+Elaborating module <controller>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <board>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\board.v".
+WARNING:Xst:647 - Input <BTN<3:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <board> synthesized.
+
+Synthesizing Unit <clock_divider>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\clock_divider.v".
+    Found 26-bit register for signal <count>.
+    Found 1-bit register for signal <clk_div>.
+    Found 26-bit adder for signal <count[25]_GND_2_o_add_2_OUT> created at line 26.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  27 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <clock_divider> synthesized.
+
+Synthesizing Unit <debouncer>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\debouncer.v".
+    Found 1-bit register for signal <sync2>.
+    Found 1-bit register for signal <sync3>.
+    Found 1-bit register for signal <clock_div_prev>.
+    Found 1-bit register for signal <out_prev>.
+    Found 1-bit register for signal <out>.
+    Found 1-bit register for signal <sync>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <debouncer> synthesized.
+
+Synthesizing Unit <GCDwrapper>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\GCDwrapper.v".
+    Summary:
+	no macro.
+Unit <GCDwrapper> synthesized.
+
+Synthesizing Unit <GCD_datapath>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\GCD4bit.v".
+    Summary:
+	no macro.
+Unit <GCD_datapath> synthesized.
+
+Synthesizing Unit <DFLIPFLOP>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\DFLIPFLOP.v".
+    Found 4-bit register for signal <d_out>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <DFLIPFLOP> synthesized.
+
+Synthesizing Unit <MUX>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\MUX.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX> synthesized.
+
+Synthesizing Unit <SUB>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\SUB.v".
+    Found 4-bit subtractor for signal <diff> created at line 25.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <SUB> synthesized.
+
+Synthesizing Unit <COMPARE>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\COMPARE.v".
+    Found 4-bit comparator greater for signal <lt> created at line 25
+    Found 4-bit comparator not equal for signal <n0001> created at line 26
+    Summary:
+	inferred   2 Comparator(s).
+Unit <COMPARE> synthesized.
+
+Synthesizing Unit <controller>.
+    Related source file is "C:\Users\kariu\Documents\Spring 2022\CDA4203L\Projects\Lab5\project5GCD\controller.v".
+    Found 1-bit register for signal <done>.
+    Found 1-bit register for signal <selA>.
+    Found 1-bit register for signal <selB>.
+    Found 1-bit register for signal <ldA>.
+    Found 1-bit register for signal <ldB>.
+    Found 1-bit register for signal <ld_D>.
+    Found 4-bit register for signal <state>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 13                                             |
+    | Transitions        | 16                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 10                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <controller> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 26-bit adder                                          : 1
+ 4-bit subtractor                                      : 2
+# Registers                                            : 17
+ 1-bit register                                        : 13
+ 26-bit register                                       : 1
+ 4-bit register                                        : 3
+# Comparators                                          : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator not equal                            : 1
+# Multiplexers                                         : 3
+ 26-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <GCD_datapath>.
+The following registers are absorbed into accumulator <A/d_out>: 1 register on signal <A/d_out>.
+The following registers are absorbed into accumulator <B/d_out>: 1 register on signal <B/d_out>.
+Unit <GCD_datapath> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clock_divider>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <clock_divider> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 26-bit up counter                                     : 1
+# Accumulators                                         : 2
+ 4-bit down loadable accumulator                       : 2
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+# Comparators                                          : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator not equal                            : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <GCD/FSM_0> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 0010  | 0010
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 1011  | 1011
+ 0110  | 0110
+ 0111  | 0111
+ 1000  | 1000
+ 1001  | 1001
+ 1010  | 1010
+ 1100  | 1100
+-------------------
+
+Optimizing unit <board> ...
+
+Optimizing unit <GCDwrapper> ...
+WARNING:Xst:1293 - FF/Latch <cd/count_25> has a constant value of 0 in block <board>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block board, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <board> :
+	Found 2-bit shift register for signal <db/sync2>.
+Unit <board> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 52
+ Flip-Flops                                            : 52
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : board.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 151
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 24
+#      LUT2                        : 33
+#      LUT3                        : 2
+#      LUT4                        : 18
+#      LUT5                        : 7
+#      LUT6                        : 15
+#      MUXCY                       : 24
+#      VCC                         : 1
+#      XORCY                       : 25
+# FlipFlops/Latches                : 53
+#      FD                          : 9
+#      FDC                         : 26
+#      FDE                         : 6
+#      FDRE                        : 12
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 10
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              53  out of  54576     0%  
+ Number of Slice LUTs:                  101  out of  27288     0%  
+    Number used as Logic:               100  out of  27288     0%  
+    Number used as Memory:                1  out of   6408     0%  
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    106
+   Number with an unused Flip Flop:      53  out of    106    50%  
+   Number with an unused LUT:             5  out of    106     4%  
+   Number of fully used LUT-FF pairs:    48  out of    106    45%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                          19
+ Number of bonded IOBs:                  16  out of    320     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 54    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.947ns (Maximum Frequency: 253.383MHz)
+   Minimum input arrival time before clock: 3.293ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.947ns (frequency: 253.383MHz)
+  Total number of paths / destination ports: 1222 / 82
+-------------------------------------------------------------------------
+Delay:               3.947ns (Levels of Logic = 3)
+  Source:            cd/count_9 (FF)
+  Destination:       cd/count_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: cd/count_9 to cd/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.981  cd/count_9 (cd/count_9)
+     LUT6:I0->O            2   0.203   0.845  cd/GND_2_o_GND_2_o_equal_7_o<25>4 (cd/GND_2_o_GND_2_o_equal_7_o<25>3)
+     LUT6:I3->O           14   0.205   0.958  cd/GND_2_o_GND_2_o_equal_7_o<25>5 (cd/GND_2_o_GND_2_o_equal_7_o)
+     LUT2:I1->O            1   0.205   0.000  cd/Mcount_count_eqn_01 (cd/Mcount_count_eqn_0)
+     FDC:D                     0.102          cd/count_0
+    ----------------------------------------
+    Total                      3.947ns (1.162ns logic, 2.785ns route)
+                                       (29.4% logic, 70.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 43 / 37
+-------------------------------------------------------------------------
+Offset:              3.293ns (Levels of Logic = 3)
+  Source:            SW<6> (PAD)
+  Destination:       GCD/DP/B/d_out_2 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: SW<6> to GCD/DP/B/d_out_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.580  SW_6_IBUF (SW_6_IBUF)
+     LUT4:I3->O            2   0.205   0.981  GCD/DP/B/Maccum_d_out_lut<2>1 (GCD/DP/B/Maccum_d_out_lut<2>)
+     LUT6:I0->O            1   0.203   0.000  GCD/DP/B/Maccum_d_out_xor<2>11 (GCD/Result<2>1)
+     FDRE:D                    0.102          GCD/DP/B/d_out_2
+    ----------------------------------------
+    Total                      3.293ns (1.732ns logic, 1.561ns route)
+                                       (52.6% logic, 47.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            GCD/CN/done (FF)
+  Destination:       LDT2G (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: GCD/CN/done to LDT2G
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  GCD/CN/done (GCD/CN/done)
+     OBUF:I->O                 2.571          LDT2G_OBUF (LDT2G)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.947|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.73 secs
+ 
+--> 
+
+Total memory usage is 4486176 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
