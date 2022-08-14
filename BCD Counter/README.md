@@ -11,4 +11,9 @@ Switches SW[6:0] take an input (max_count) value which the bcd counter will coun
 Once the value is reached the counter stops and resets the value of the digits to 0.
 Counting should only happen when RUN is enabled. The BCD value is output to the LEDS LED[7:0]. Switch SW[7] enables the clock. Note that since counting is done in 2 digit decimal, the maximum count (input) cannot be more than 99 or 1100011
 
+## Results
+The following shows an image of the simulation results for bcd counter to 15.
 
+Note that counting starts when RUN=1 and stops at 15. Digit1 counts in ones while digit2 counts tens.
+
+![](images\bcd15.jpg)
