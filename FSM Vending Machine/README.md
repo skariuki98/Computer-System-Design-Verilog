@@ -11,3 +11,18 @@ Create a FSM with every possible state. Since the lowest coin value is 5c, there
 
 Create another FSM to calculate change and handle the status(i.e if done vending) and dispensing for each of the states.
 
+## Finite State Machine (Moore's model) Table
+![](/images/vendingFSM.jpg)
+
+## Results
+*For all cases, each input or output pulse is reflected for a full clock cycle. 4 dimes = 4 clock cycles. Change is in nickels therefore 20c = 4 clock cycles.*
+
+Case 1: Input: Soda = 1, diet = 0, 3 dimes, 1 nickel; Output: Status = 0, Change = 0
+
+
+![](/images/vendingtest1a.jpg)
+
+Case 2: Input: Soda = 1, diet = 0, 4 dimes, 1 quarter; Output: Status = 1, Change = 20
+
+![](/images/vendingtest1d.jpg)
+
