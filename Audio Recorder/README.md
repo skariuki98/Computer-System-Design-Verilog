@@ -3,6 +3,7 @@
 Prototype an audio recorder/player using the ANVYL FPGA Board.    The player must be implemented with picoBlaze soft microcontroller as the main controller.    The design should have the standard features of an audio recorder, namely, ability to record an audio message, play/pause/delete an audio message selected by the user from the audio library.  The user interface is through the Serial Terminal, push buttons, LEDS, and the dip switches.
 ### Design Requirements
 The following are the design requirements:
+
 R1) On start up, the system must show a welcome message and then display a menu
     1)	Play a message
     2)	Record a message
