@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/Audio_rec_control.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/audio_codec.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/audio_effects.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/clk_wiz_v3_6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/debouncer.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/i2c_av_config.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/i2c_controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/kcpsm6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/picoblaze.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/program.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/ram_interface_wrapper.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/rs232_uart.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/sockit_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/uart_rx6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/kariu/Documents/Spring 2022/CDA4203L/Computer-System-Design-Verilog/Audio Recorder/uart_tx6.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Computer-System-Design-Verilog\Audio Recorder\Audio_rec_control.ncd
+OUTFILE=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Computer-System-Design-Verilog\Audio Recorder\Audio_rec_control.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg484
+WORKINGDIR=C:\Users\kariu\Documents\Spring 2022\CDA4203L\Computer-System-Design-Verilog\Audio Recorder
+LICENSE=WebPack
+USER_INFO=212392216_0_0_811
