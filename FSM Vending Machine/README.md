@@ -1,4 +1,4 @@
-# 2. Finite State Machine - Vending Machine
+# Finite State Machine - Vending Machine
 ## Objective
 Create a soda vending machine using a finite state machine model which takes dimes, nickels and quarters. Each soda (diet or regular) is 45c. Assume that the machine cannot take more coins once the 45c is reached. A drink should be dispensed and change given after the customer inserts at least 45c. After dispensing a drink, the vending machine return to reset state.
 
