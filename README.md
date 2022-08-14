@@ -47,4 +47,10 @@ Create a FSM with every possible state. Since the lowest coin value is 5c, there
 
 Create another FSM to calculate change and handle the status(i.e if done vending) and dispensing for each of the states.
 
+## 3. Finite State Machine GCD Calculator
+### Objective
+
+
+### Implementation
+
 
