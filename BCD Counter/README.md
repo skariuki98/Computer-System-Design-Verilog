@@ -16,4 +16,4 @@ The following shows an image of the simulation results for bcd counter to 15.
 
 Note that counting starts when RUN=1 and stops at 15. Digit1 counts in ones while digit2 counts tens.
 
-![](images\bcd15.jpg)
+![](/images/bcd15.jpg)
